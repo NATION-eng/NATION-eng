@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.profile-card {
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(243, 226, 226);
+    text-align: center;
+}
+
+.profile-card:hover{
+    transform: scale(1.10);
+    transition: 0.5s;
+    /* /transition: ease-in-out; */
+}
+
+.profile-image img {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile-image img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.profile-info h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.profile-info p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+a{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: red;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 500;
+    /* text-decoration: none; */
+    /* justify-items: center; */
+    /* align-items: center; */
+     justify-content: space-between;
+}
+
+a:hover {
+    /* background-color: #005bb5; */
+    transform: scale(1.05);
+    transition:0.2s;
+}
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile CARD</title>
+</head>
+<body>
+    <div class="profile-card">
+        <div class="profile-image">
+            <img src="Pic1.jpeg" alt="profile-image" srcset="">
+        </div>
+        
+        <div class="profile-info">
+            <h2>NATION CHIBUROMA AMADI</h2>
+            <p>WEB DEVELOPER</p>
+            <p>MARKETER for JODNA TECHNOLOGIES</p>
+        </div>
+
+        <div class="profile-socials">
+            <a href="https://github.com/NATION-eng" target="_blank">GITHUB</a>
+            <a href="https://twitter.com/home" target="_blank">TWITTER</a>
+            <a href="https://twitter.com/home" target="_blank">LINKEDIN</a>
+        </div>
+    </div>
+</body>
+</html>
