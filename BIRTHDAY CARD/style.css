@@ -1,0 +1,276 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+  width: 500px; /* Adjust for larger screens */
+  margin: 10px;
+}
+
+h1 {
+  color: #ff6f61;
+  font-size: 1.8rem;
+}
+
+p {
+  margin: 15px 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+button {
+  background: #ff6f61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff3b2f;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 360px) and (max-height: 640px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  button {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 412px) and (max-height: 915px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 360px) and (max-height: 812px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 360px) and (max-height: 800px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  button {
+    font-size: 0.75rem;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 375px) and (max-height: 812px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  button {
+    font-size: 0.85rem;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 360px) and (max-height: 720px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  button {
+    font-size: 0.75rem;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 412px) and (max-height: 920px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 360px) and (max-height: 800px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+
+  button {
+    font-size: 0.75rem;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 393px) and (max-height: 851px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  button {
+    font-size: 0.85rem;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 360px) and (max-height: 640px) {
+  /* Galaxy S5 styles */
+}
+@media (max-width: 412px) and (max-height: 915px) {
+  /* Galaxy S20/S21 styles */
+}
+@media (max-width: 360px) and (max-height: 812px) {
+  /* Galaxy Z Fold 4 folded */
+}
+
+/* Tecno */
+@media (max-width: 360px) and (max-height: 800px) {
+  /* Camon 16 styles */
+}
+@media (max-width: 375px) and (max-height: 812px) {
+  /* Phantom X styles */
+}
+
+/* Oppo */
+@media (max-width: 360px) and (max-height: 720px) {
+  /* Oppo A12 styles */
+}
+@media (max-width: 412px) and (max-height: 920px) {
+  /* Reno 8 Pro styles */
+}
+
+/* Infinix */
+@media (max-width: 360px) and (max-height: 800px) {
+  /* Hot 10 styles */
+}
+@media (max-width: 393px) and (max-height: 851px) {
+  /* Zero X styles */
+}
